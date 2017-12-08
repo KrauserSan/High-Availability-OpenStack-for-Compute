@@ -1,0 +1,6 @@
+#!/bin/bash
+
+START=$(date +%s)
+sleep 2
+END=$(date +%s)
+echo $(($END - $START))
